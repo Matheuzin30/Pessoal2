@@ -85,15 +85,10 @@ button:hover{
   border-radius: 10px;
 }
 
-.forme{
-    padding-left: 10%;
-    font-size: 28px;
-}
 
 .aboutme p{
     max-width: 600px;
-    padding-left: 10%;
-    
+    padding-left: 10%;  
 }
 
 .site {
@@ -103,45 +98,34 @@ button:hover{
 }
 
 .site img{
-    width: 300px;
-    border-radius: 50%;
-    margin-right: 9%;
-
+  flex: 0 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .site p{
-    width: 37%;
-    word-break: break-all;
-    padding: 3%;
-    font-size: medium;
-    text-align: left;
+  max-width: 600px; 
 }
 
-.site h2 {
-    text-align: right;
-    padding-right: 6%;
-    
-  }
 
 .career{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
 } 
 
 .career p{
-    max-width: 43%;
-    word-break: break-all;
-    padding: 3%;
-    font-size: medium;
+  max-width: 600px;
+  padding-left: 10%;  
 }
 .career img{
-    margin-left: 320px;
-    border-radius: 50%; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    width: 280px;
-    height: auto;
+  flex: 0 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 .career h2{
     padding-left: 10%;
@@ -188,12 +172,6 @@ button:hover{
     align-items: center;
 }
  
-.contact{
-    text-align: center;
-    min-height: 22vh;
-    background-color: #02101f;
-}
-
 .contact h2{
     margin-bottom: 25px;
     font-size: 30px;
